@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txt_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="@dimen/dimen_editext_horizontal"
+            android:layout_height="@dimen/dimen_editext_vertical"
+            android:textColor="#000000"
+            android:hint="@string/username"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="@dimen/dimen_editext_horizontal"
+            android:layout_height="@dimen/dimen_editext_vertical"
+            android:textColor="#000000"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/btn_login"
+            android:layout_marginBottom="10dp"
+            />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:gravity="center">
+
+           <TextView
+               android:id="@+id/txt_already_have_acc"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/doesnt_have_acc"
+               android:textColor="@color/colorAccent"
+               android:layout_alignBaseline="@+id/btn_sign_up"
+               android:layout_alignBottom="@+id/btn_sign_up"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:paddingRight="5dp" />
+
+           <Button
+               android:id="@+id/btn_sign_up"
+               android:layout_width="@dimen/dimen_button_horizontal"
+               android:layout_height="@dimen/dimen_button_vertical"
+               android:text="@string/btn_sign_up"
+               android:layout_toRightOf="@id/txt_already_have_acc"
+               />
+
+           <TextView
+               android:id="@+id/for_more_info"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/for_more_info"
+               android:layout_marginTop="10dp"
+               android:paddingRight="5dp"
+               android:paddingEnd="5dp"
+               android:textColor="#000"
+               android:layout_below="@+id/txt_already_have_acc"/>
+
+           <TextView
+               android:id="@+id/open_google_link"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/colorAccent"
+               android:text="@string/google_link"
+               android:paddingRight="5dp"
+               android:paddingEnd="5dp"
+               android:layout_alignBaseline="@+id/for_more_info"
+               android:layout_alignBottom="@+id/for_more_info"
+               android:layout_toRightOf="@+id/for_more_info"
+               android:layout_toEndOf="@+id/for_more_info" />
+
+           <TextView
+               android:id="@+id/call_phone"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/colorAccent"
+               android:text="@string/call_phone"
+               android:layout_alignBaseline="@+id/for_more_info"
+               android:layout_alignBottom="@+id/for_more_info"
+               android:layout_toRightOf="@+id/open_google_link"
+               android:layout_toEndOf="@+id/open_google_link" />
+
+       </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

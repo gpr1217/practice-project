@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="menu_search_item_title"
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+
+    <item
+        android:icon="@drawable/ic_action_overflow"
+        android:title="Menu Overflow"
+        app:showAsAction="always"
+        android:id="@+id/menu_overflow"
+        android:visible="false"
+        >
+        <menu>
+            <item android:id="@+id/action_settings"
+                android:title="Settings"></item>
+
+            <item android:id="@+id/action_logout"
+                android:title="Logout"
+                ></item>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/title_emp_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_emp_id"
+            />
+
+        <TextView
+            android:id="@+id/emp_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/title_emp_id"
+            android:layout_toEndOf="@+id/title_emp_id"
+            android:text="text"
+            />
+
+        <TextView
+            android:id="@+id/title_emp_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_emp_name"
+            android:layout_below="@+id/title_emp_id"
+            />
+
+        <TextView
+            android:id="@+id/emp_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emp_id"
+            android:layout_toRightOf="@+id/title_emp_name"
+            android:layout_toEndOf="@+id/title_emp_name"
+            android:text="text"
+            />
+
+        <TextView
+            android:id="@+id/title_emp_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_emp_email"
+            android:layout_below="@+id/title_emp_name"
+            />
+
+        <TextView
+            android:id="@+id/emp_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emp_name"
+            android:layout_toRightOf="@+id/title_emp_email"
+            android:layout_toEndOf="@+id/title_emp_email"
+            />
+
+        <TextView
+            android:id="@+id/title_emp_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_emp_phone"
+            android:layout_below="@+id/title_emp_email"
+            />
+
+        <TextView
+            android:id="@+id/emp_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emp_email"
+            android:layout_toRightOf="@+id/title_emp_phone"
+            android:layout_toEndOf="@+id/title_emp_phone"
+            />
+
+        <TextView
+            android:id="@+id/title_emp_dept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_emp_dept"
+            android:layout_below="@+id/title_emp_phone"
+            />
+
+        <TextView
+            android:id="@+id/emp_dept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emp_phone"
+            android:layout_toRightOf="@+id/title_emp_dept"
+            android:layout_toEndOf="@+id/title_emp_dept"
+            />
+
+        </RelativeLayout>
+</RelativeLayout>

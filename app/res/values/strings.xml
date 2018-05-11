@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Emp App</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="doesnt_have_acc">Doesnt have an account?</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="re_enter_pwd">Re-enter Password</string>
+    <string name="email">Email</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="btn_submit">Submit</string>
+    <string name="department">Department</string>
+    <string name="list_of_Departments">List of Departments</string>
+    <string name="title_dept_no">Department No:</string>
+    <string name="title_dept_name">Department Name:</string>
+    <string name="title_dept_description">Description:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="for_more_info">For more Info</string>
+    <string name="google_link"><u>click here</u></string>
+    <string name="call_phone">or <u>call us</u></string>
+
+    <string name="view_departments">View Departments</string>
+    <string name="view_employees">View Employees</string>
+    <string name="new_department">New Department</string>
+
+    <string name="title_emp_name">Employee name:</string>
+    <string name="title_emp_id">Employee ID:</string>
+    <string name="title_emp_email">Email:</string>
+    <string name="title_emp_phone">Phone:</string>
+    <string name="title_emp_dept">Department:</string>
+
+    <string name="menu_search_item_title">Search</string>
+</resources>

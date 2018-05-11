@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_editext_horizontal">160dp</dimen>
+    <dimen name="dimen_editext_horizontal_big">320dp</dimen>
+    <dimen name="dimen_editext_vertical">50dp</dimen>
+    <dimen name="dimen_button_horizontal">100dp</dimen>
+    <dimen name="dimen_button_vertical">50dp</dimen>
+</resources>

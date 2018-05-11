@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    tools:context="com.practiceex.ui.DashboardActivity">
+
+    <include
+        android:id="@+id/my_toolbar"
+        layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/view_departments"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/view_departments"/>
+
+        <Button
+            android:id="@+id/view_employees"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="@string/view_employees"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/view_departments"/>
+
+        <Button
+            android:id="@+id/new_department"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="@string/new_department"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/view_employees"/>
+    </RelativeLayout>
+
+</RelativeLayout>

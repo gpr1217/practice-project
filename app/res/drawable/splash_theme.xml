@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    // LayerDrawable is drawable object that manages array of other drawables. Each Drawable is drawn in the order of list.
+    // Last drawable in the list is drawn on top
+    <item android:drawable="@color/colorPrimary">
+    </item>
+
+    // using a bitmap with center gravity to avoid scaling instead of android:drawable
+    <item>
+        <bitmap android:src="@drawable/ic_launcher_round"
+            android:gravity="center" />
+    </item>
+
+</layer-list>

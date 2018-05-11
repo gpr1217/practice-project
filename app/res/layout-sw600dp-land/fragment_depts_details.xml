@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.practiceex.ui.fragments.DepartmentsFragment">
+
+    <RelativeLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/title_department_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_dept_no"
+            />
+
+        <TextView
+            android:id="@+id/department_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/title_department_no"
+            android:layout_toEndOf="@+id/title_department_no"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_layout">
+        <TextView
+            android:id="@+id/title_department_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_dept_name"
+            />
+
+        <TextView
+            android:id="@+id/department_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text text texttext text text texttexttexttexttext text text text text"
+            android:layout_toRightOf="@+id/title_department_name"
+            android:layout_toEndOf="@+id/title_department_name"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/third_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second_layout">
+        <TextView
+            android:id="@+id/title_department_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_dept_description"
+            />
+
+        <TextView
+            android:id="@+id/department_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/title_department_description"
+            android:layout_toEndOf="@+id/title_department_description"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="text text texttext text text texttexttexttexttext text text text text"/>
+    </RelativeLayout>
+</RelativeLayout>
