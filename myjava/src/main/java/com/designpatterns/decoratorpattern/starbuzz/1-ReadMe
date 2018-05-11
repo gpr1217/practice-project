@@ -1,0 +1,13 @@
+The Decorator pattern attaches additional responsibilities to an object dynamically.
+Decorators provide a flexible alternative to subclassing for extending functionality.
+
+
+DESIGN PRINCIPLE
+Classes should be open for extension, but closed for modification.
+
+Our goal is to allow classes to be easily extended to incorporate new behavior without modifying existing code.
+
+Component - Beverage.java
+ConcreteComponent - DarkRoast.java, Espresso.java, HouseBlend.java
+Decorator - CondimentDecorator.java
+ConcreteDecorator - Mocha.java, Milk.java, Soy.java, Whip.java
